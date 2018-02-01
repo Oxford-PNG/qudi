@@ -96,7 +96,7 @@ class MicrowaveSGS(Base, MicrowaveInterface):
         limits.supported_modes = (MicrowaveMode.CW, MicrowaveMode.SWEEP)
 
         limits.min_power = -145
-        limits.max_power = 30
+        limits.max_power = 0
 
         limits.min_frequency = 1e6
         limits.max_frequency = 6e9
